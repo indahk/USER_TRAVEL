@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/o"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="66dp"
+        android:text="Detail Informasi"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/foto_detil"
+        android:layout_width="376dp"
+        android:layout_height="300dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="200dp"
+        android:layout_weight="40"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/nama_mobil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Nama Mobil :"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="36dp"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/nomor_hp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="No Handphone :"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="36dp"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/arah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Rute :"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="36dp"
+        android:layout_gravity="left"/>
+    <TextView
+        android:id="@+id/kelebihan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Fasilitas :"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="36dp"
+        android:layout_gravity="left"/>
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Harga :"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="36dp"
+        android:layout_gravity="left"/>
+    <TextView
+        android:id="@+id/keberangkatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Jadwal :"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="36dp"
+        android:layout_gravity="left"/>
+
+
+
+</LinearLayout>
